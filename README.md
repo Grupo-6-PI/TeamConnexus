@@ -21,7 +21,7 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 | ----------------- | ---------------------------------------------------------------- |
 | Cor do Fundo      | ![#1A1A1A](https://via.placeholder.com/10/1A1A1A?text=+) #1A1A1A |
 | Cor de Texto 1    | ![#6031FF](https://via.placeholder.com/10/6031FF?text=+) #6031FF |
-| Cor de Texto 2    | ![#25DD1F](https://via.placeholder.com/10/00b48a?text=+) #25DD1F |
+| Cor de Texto 2    | ![#25DD1F](https://via.placeholder.com/10/25DD1F?text=+) #25DD1F |
 | Cor de Texto 3    | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 
 
