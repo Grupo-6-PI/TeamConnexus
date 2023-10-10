@@ -9,7 +9,7 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 ## Autores
 
 - [@dieguesmosken](https://www.github.com/dieguesmosken)
-- [@placeholder](https://www.github.com/placeholder)
+- [@ruthmendonca](https://www.github.com/ruthmendonca)
 - [@placeholder](https://www.github.com/placeholder)
 - [@placeholder](https://www.github.com/placeholder)
 
@@ -19,10 +19,10 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Cor exemplo       | ![#1A1A1A](https://via.placeholder.com/10/1A1A1A?text=+) #1A1A1A |
-| Cor exemplo       | ![#6031FF](https://via.placeholder.com/10/6031FF?text=+) #6031FF |
-| Cor exemplo       | ![#25DD1F](https://via.placeholder.com/10/00b48a?text=+) #25DD1F |
-| Cor exemplo       | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
+| Cor do Fundo      | ![#1A1A1A](https://via.placeholder.com/10/1A1A1A?text=+) #1A1A1A |
+| Cor de Texto 1    | ![#6031FF](https://via.placeholder.com/10/6031FF?text=+) #6031FF |
+| Cor de Texto 2    | ![#25DD1F](https://via.placeholder.com/10/00b48a?text=+) #25DD1F |
+| Cor de Texto 3    | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
 
 
 ## Documentação
@@ -37,7 +37,7 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 ## Suporte
 
-Para suporte, mande um email para fake@fake.com ou entre em nosso canal do Slack.
+Para suporte, mande um email para suporte@connexus.com ou entre em nosso canal do (example).
 
 
 ## Referência
