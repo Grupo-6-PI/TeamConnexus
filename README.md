@@ -10,7 +10,7 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 - [@dieguesmosken](https://www.github.com/dieguesmosken)
 - [@ruthmendonca](https://www.github.com/ruthmendonca)
-- [@placeholder](https://www.github.com/placeholder)
+- [@cailler](https://www.github.com/cailler)
 - [@placeholder](https://www.github.com/placeholder)
 
 
