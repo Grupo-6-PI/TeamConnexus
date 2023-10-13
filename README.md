@@ -1,4 +1,4 @@
-
+[![wakatime](https://wakatime.com/badge/user/31c8cd4b-9191-483c-b3b6-c1c3a6f23a70/project/018b212a-a8e2-4bae-8b73-1f19fd5bace4.svg)](https://wakatime.com/badge/user/31c8cd4b-9191-483c-b3b6-c1c3a6f23a70/project/018b212a-a8e2-4bae-8b73-1f19fd5bace4)
 # Team Connexus
 
 Uma breve descrição sobre o que esse projeto faz e para quem ele é
