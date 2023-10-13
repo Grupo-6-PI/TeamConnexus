@@ -7,10 +7,17 @@
     --fonte-principal: 'Roboto Condensed', sans-serif;
     --fonte-secundaria: 'Staatliches', cursive;
     --cor-primaria: #3A00FF;
+    --verde-2: #1FC319;
+    --verde-1: #25DD1F;
     --branco: #FFFFFF;
     --preto-claro: #1A1A1A;
+
 }
 
+a {
+    text-decoration: none;
+    color: var(--preto-claro);
+}
 .desktop1 {
     width: 1920px;
     height: 1080px;
@@ -101,7 +108,15 @@
     font-family: Staatliches;
     font-weight: 400;
     word-wrap: break-word
+    
+
 }
+
+.texto-nav a {
+    color: white;
+    text-decoration: none;
+  }
+
 
 .Texto {
     width: 651px;
@@ -146,7 +161,7 @@
     left: 1107px;
     top: 707px;
     position: absolute;
-    background: #25DD1F;
+    background: var(--verde-1);
     border-radius: 25px;
     justify-content: center;
     align-items: center;
@@ -155,7 +170,7 @@
 }
 
 .Explore {
-    color: #1A1A1A;
+    color: var(--preto-claro);
     font-size: 80px;
     font-family: MuseoModerno;
     font-weight: 500;
@@ -170,7 +185,7 @@
     left: 1107px;
     top: 707px;
     position: absolute;
-    background: #25DD1F;
+    background: var(--verde-1);
     border-radius: 25px;
     justify-content: center;
     align-items: center;
@@ -182,7 +197,7 @@
     width: 1920px;
     height: 1080px;
     position: relative;
-    background: #1A1A1A;
+    background: var(--preto-claro);
 }
 
 .Base2V2 {
@@ -242,7 +257,7 @@
     left: 1032px;
     top: 240px;
     position: absolute;
-    color: white;
+    color: var(--branco);
     font-size: 60px;
     font-family: Roboto Condensed;
     font-weight: 400;
@@ -256,7 +271,7 @@
     left: 1032px;
     top: 240px;
     position: absolute;
-    color: white;
+    color: var(--branco);
     font-size: 60px;
     font-family: Roboto Condensed;
     font-weight: 400;
@@ -270,17 +285,17 @@
     left: 1107px;
     top: 707px;
     position: absolute;
-    background: #25DD1F;
+    background: var(--verde-1);
     border-radius: 25px;
 }
 
-.BotO {
+/* .botao {
     width: 363px;
     height: 105px;
     left: 1117px;
     top: 734px;
     position: absolute;
-}
+} */
 
 .SombraBotVerde {
     width: 363px;
@@ -300,7 +315,7 @@
     left: 1107px;
     top: 707px;
     position: absolute;
-    background: #25DD1F;
+    background: var(--verde-1);
     border-radius: 25px;
     justify-content: center;
     align-items: center;
@@ -319,7 +334,7 @@
     width: 1920px;
     height: 1080px;
     position: relative;
-    background: #1A1A1A;
+    background: var(--preto-claro);
 }
 
 .vector-canto-1 {
@@ -367,7 +382,7 @@
     left: 20px;
     top: 0px;
     position: absolute;
-    background: #1A1A1A;
+    background: var(--preto-claro);
     border-radius: 9999px;
 }
 
@@ -377,12 +392,12 @@
     left: 1309px;
     top: 577px;
     position: absolute;
-    background: #1A1A1A;
+    background: var(--preto-claro);
     border-radius: 9999px;
 }
 
 .destaque-nome-integrante {
-    color: #1A1A1A;
+    color: var(--preto-claro);
     font-size: 50px;
     font-family: Roboto Condensed;
     font-weight: 700;
@@ -390,7 +405,7 @@
 }
 
 .texto-integrante {
-    color: #1A1A1A;
+    color: var(--preto-claro);
     font-size: 50px;
     font-family: Roboto Condensed;
     font-weight: 400;
