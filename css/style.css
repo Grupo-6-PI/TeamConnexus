@@ -1,0 +1,401 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --fonte-principal: 'Roboto Condensed', sans-serif;
+    --fonte-secundaria: 'Staatliches', cursive;
+    --cor-primaria: #3A00FF;
+    --branco: #FFFFFF;
+    --preto-claro: #1A1A1A;
+}
+
+.Desktop1 {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background-image: url(assets/texturas/textura_fundo.svg);
+    background-size: cover;
+}
+
+.NavBase {
+    width: 1920px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #1A1A1A;
+}
+
+.LogoConnexus {
+    width: 184px;
+    height: 60px;
+    left: 152px;
+    top: 30px;
+    position: absolute;
+}
+
+.BolinhasFofas {
+    width: 599px;
+    height: 401.58px;
+    left: 339px;
+    top: 403px;
+    position: absolute;
+}
+
+.Ellipse5 {
+    width: 324.72px;
+    height: 334.28px;
+    left: 92.79px;
+    top: 401.58px;
+    position: absolute;
+    transform: rotate(-106.60deg);
+    transform-origin: 0 0;
+    opacity: 0.90;
+    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
+    border-radius: 9999px
+}
+
+.Ellipse4 {
+    width: 324.72px;
+    height: 334.28px;
+    left: 170.33px;
+    top: 400.85px;
+    position: absolute;
+    transform: rotate(-106.60deg);
+    transform-origin: 0 0;
+    opacity: 0.90;
+    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
+    border-radius: 9999px
+}
+
+.Ellipse3 {
+    width: 324.72px;
+    height: 334.28px;
+    left: 276.97px;
+    top: 400.85px;
+    position: absolute;
+    transform: rotate(-106.60deg);
+    transform-origin: 0 0;
+    opacity: 0.90;
+    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
+    border-radius: 9999px
+}
+
+.Nav {
+    width: 1000px;
+    height: 110px;
+    left: 1107px;
+    top: 30px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 95px;
+    display: inline-flex
+}
+
+.texto-nav {
+    color: white;
+    font-size: 40px;
+    font-family: Staatliches;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Texto {
+    width: 651px;
+    height: 330px;
+    left: 1101px;
+    top: 360px;
+    position: absolute;
+    color: #1A1A1A;
+    font-size: 100px;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    line-height: 102.69px;
+    word-wrap: break-word;
+}
+
+.RisquinhosFofos {
+    width: 446px;
+    left: -80px;
+    top: 446px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: inline-flex
+}
+
+.SombraBotOVerde {
+    width: 363px;
+    height: 93px;
+    padding: 10px;
+    left: 1117px;
+    top: 719px;
+    position: absolute;
+    background: #1FC319;
+    border-radius: 25px
+}
+
+.BotOVerde {
+    width: 363px;
+    height: 93px;
+    padding: 10px;
+    left: 1107px;
+    top: 707px;
+    position: absolute;
+    background: #25DD1F;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+.Explore {
+    color: #1A1A1A;
+    font-size: 80px;
+    font-family: MuseoModerno;
+    font-weight: 500;
+    line-height: 82.15px;
+    word-wrap: break-word
+}
+
+.AlgumaCoisaIndefinida {
+    width: 363px;
+    height: 93px;
+    padding: 10px;
+    left: 1107px;
+    top: 707px;
+    position: absolute;
+    background: #25DD1F;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+.Projeto {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background: #1A1A1A;
+}
+
+.Base2V2 {
+    width: 782.42px;
+    height: 305.25px;
+    left: 126px;
+    top: 387px;
+    position: absolute;
+}
+
+.Bordas {
+    width: 310.41px;
+    height: 305.25px;
+    left: 472.01px;
+    top: 0px;
+    position: absolute;
+}
+
+.vetor-canto-1 {
+    width: 693.61px;
+    height: 294.09px;
+    left: 1459px;
+    top: 1083.46px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+}
+
+.vetor-canto-2 {
+    width: 693.61px;
+    height: 294.09px;
+    left: -27.05px;
+    top: 616px;
+    position: absolute;
+    transform-origin: 0 0;
+}
+
+.Frame1Traced {
+    width: 142.56px;
+    height: 145.86px;
+    left: 167.84px;
+    top: -0px;
+    position: absolute;
+}
+
+.Citr {
+    width: 478.54px;
+    height: 282.12px;
+    left: -0px;
+    top: 22.84px;
+    position: absolute;
+}
+
+.ocitro {
+    width: 806px;
+    height: 811px;
+    left: 1032px;
+    top: 240px;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    line-height: 61.61px;
+    word-wrap: break-word;
+}
+
+.texto-citro {
+    width: 806px;
+    height: 811px;
+    left: 1032px;
+    top: 240px;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    line-height: 61.61px;
+    word-wrap: break-word;
+}
+
+.Rectangle20 {
+    width: 363px;
+    height: 93px;
+    left: 1107px;
+    top: 707px;
+    position: absolute;
+    background: #25DD1F;
+    border-radius: 25px;
+}
+
+.BotO {
+    width: 363px;
+    height: 105px;
+    left: 1117px;
+    top: 734px;
+    position: absolute;
+}
+
+.SombraBotVerde {
+    width: 363px;
+    height: 93px;
+    padding: 10px;
+    left: 1117px;
+    top: 719px;
+    position: absolute;
+    background: #1FC319;
+    border-radius: 25px;
+}
+
+.BotVerde {
+    width: 363px;
+    height: 93px;
+    padding: 10px;
+    left: 1107px;
+    top: 707px;
+    position: absolute;
+    background: #25DD1F;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.sobre-equipe-1 {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background: var(--branco);
+}
+
+.sobre-equipe-2 {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    background: #1A1A1A;
+}
+
+.vector-canto-1 {
+    width: 693.61px;
+    height: 294.09px;
+    left: 1459px;
+    top: 1083.46px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+}
+
+.vector-canto-2 {
+    width: 693.61px;
+    height: 294.09px;
+    left: -27.05px;
+    top: 616px;
+    position: absolute;
+    transform-origin: 0 0;
+}
+
+.bolinha-roxa {
+    width: 454px;
+    height: 454px;
+    left: 50px;
+    top: 15px;
+    position: absolute;
+    background: #7D5CEF;
+    border-radius: 9999px;
+}
+
+.bolinha-roxa-2 {
+    width: 454px;
+    height: 454px;
+    left: 1331px;
+    top: 595px;
+    position: absolute;
+    background: #7D5CEF;
+    border-radius: 9999px;
+}
+
+.bolinha-preta {
+    width: 454px;
+    height: 454px;
+    left: 20px;
+    top: 0px;
+    position: absolute;
+    background: #1A1A1A;
+    border-radius: 9999px;
+}
+
+.bolinha-preta-2 {
+    width: 454px;
+    height: 454px;
+    left: 1309px;
+    top: 577px;
+    position: absolute;
+    background: #1A1A1A;
+    border-radius: 9999px;
+}
+
+.destaque-nome-integrante {
+    color: #1A1A1A;
+    font-size: 50px;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.texto-integrante {
+    color: #1A1A1A;
+    font-size: 50px;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+
