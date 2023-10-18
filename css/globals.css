@@ -1,0 +1,39 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Roboto Condensed-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6059381db90976028c50cc9a/fonts/robotocondensed-bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Condensed-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/622ebb467082d0e44687cc1b/fonts/robotocondensed-regular.ttf")
+    format("truetype");
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|MuseoModerno:500,400|Staatliches:400");
+

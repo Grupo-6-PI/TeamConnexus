@@ -19,10 +19,26 @@ a {
     color: var(--preto-claro);
 }
 .desktop1 {
-    width: 1920px;
-    height: 1080px;
+    width: 100%;
+    height: 100%;
     position: relative;
     background-image: url(../assets/texturas/textura_fundo.svg);
+    background-size: cover;
+}
+
+.fundo-about-1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../assets/textura-fundo.svg);
+    background-size: cover;
+}
+
+.fundo-about-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../assets/textura-fundo-invertida.svg);
     background-size: cover;
 }
 
@@ -125,6 +141,7 @@ a {
     top: 360px;
     position: absolute;
     color: #1A1A1A;
+    text-shadow: 4px 4px #6031FF;
     font-size: 100px;
     font-family: Roboto Condensed;
     font-weight: 700;
