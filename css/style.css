@@ -7,13 +7,14 @@
     --fonte-principal: 'Roboto Condensed', sans-serif;
     --fonte-secundaria: 'Staatliches', cursive;
     --cor-primaria: #6031ff;
+    --cor-primaria: #6031ff;
     --verde-2: #1FC319;
     --verde-1: #25DD1F;
     --branco: #FFFFFF;
     --preto-claro: #1A1A1A;
 
-    --circle-w : 599px;
-    --circle-h : 401.58px;
+    --circle-w: 599px;
+    --circle-h: 401.58px;
 
 }
 
@@ -24,10 +25,17 @@ a {
 
 .desktop1 {
     width: 100%;
-    height: 100%;
+    height: 1080px;
     position: relative;
     background-image: url(../assets/texturas/textura_fundo.svg);
     background-size: cover;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .display-flex {
@@ -53,18 +61,8 @@ a {
     background-size: cover;
 }
 
-.navBase {
-    width: 1920px;
-    height: 110px;
-    left: 0px;
-    top: 0px;
-    position: fixed;
-    background: #1A1A1A;
-    z-index: 1;
-}
-
 .LogoConnexus {
-    width: 184px;
+  
     height: 60px;
     left: 152px;
     top: 30px;
@@ -72,16 +70,18 @@ a {
 }
 
 .circle {
-   
+
     left: 339px;
     top: 403px;
     position: absolute;
 }
+
 .c-1 {
     left: 92.79px;
     top: 401.58px;
 }
 
+.c-2 {
 .c-2 {
     left: 170.33px;
     top: 400.85px;
@@ -93,9 +93,11 @@ a {
 }
 
 /* estilo para os circulos */
-.c-1, .c-2, .c-3 {
-    width: 324.72px;
-    height: 334.28px;
+.c-1,
+.c-2,
+.c-3 {
+    width: 50vh;
+    height: 50vh;
     position: absolute;
     transform: rotate(-106.60deg);
     transform-origin: 0 0;
@@ -104,16 +106,28 @@ a {
     border-radius: 9999px
 }
 
-.nav {
-    width: 1000px;
+.navBase {
+    width: 100%;
     height: 110px;
-    left: 1107px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background: #1A1A1A;
+    z-index: 1;
+    
+}
+
+
+.nav {
+    width: 100%;
     top: 30px;
+    padding: 0px 100px;
     position: absolute;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: end;
+    align-items: end;
+    display: inline-flex;
     gap: 95px;
-    display: inline-flex
+
 }
 
 .texto-nav {
@@ -130,11 +144,11 @@ a {
 }
 
 
-.Texto {
+.texto {
     width: 651px;
     height: 330px;
-    left: 1101px;
-    top: 360px;
+    left: 60%;
+    top: 50%;
     position: absolute;
     color: #1A1A1A;
     text-shadow: 4px 4px #6031FF;
@@ -146,8 +160,8 @@ a {
 }
 
 .RisquinhosFofos {
-    width: 446px;
-    left: -80px;
+    width: auto;
+    height: 100%;
     top: 446px;
     position: absolute;
     flex-direction: column;
@@ -163,53 +177,57 @@ a {
     top: 242px;
     position: absolute;
     background: #D9D9D9;
+    border-radius: 25px; 
 }
-
-.SombraBotOVerde {
-    width: 363px;
-    height: 93px;
+.s-b-verde {
+    width: 22%;
+    height: 9%;
     padding: 10px;
-    left: 1117px;
-    top: 719px;
-    position: absolute;
+    left: 70%;
+    top: 67%;
+    position: absolute; /* Mude de 'relative' para 'absolute' */
     background: #1FC319;
-    border-radius: 25px
+    border-radius: 25px;
 }
 
-.BotOVerde {
-    width: 363px;
-    height: 93px;
+.b-verde {
+    width: 22%;
+    height: 9%;
     padding: 10px;
-    left: 1107px;
-    top: 707px;
-    position: absolute;
+    left: 69.4%;
+    top: 66%;
+    position: absolute; /* Mude de 'relative' para 'absolute' */
     background: var(--verde-1);
     border-radius: 25px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    display: inline-flex
+    display: inline-flex;
 }
 
-.BotOVerde:hover {
-    background: var(--verde-2);
-    color: var();
-    left: 1117px;
-    top: 719px;
-    transition: 0.5s;
+.b-verde:hover {
+    background-color: var(--verde-2);
+    left: 70%;
+    top: 67%;
+    position: absolute; /* Mude de 'relative' para 'absolute' */
+    transition: 0.5s; /* animação de botão pressionando */
 }
 
-.BotOVerde:active {
+
+.b-verde:active {
     background: var(--cor-primaria);
-    color: var();
-    left: 1117px;
-    top: 719px;
     transition: 0.5s;
 }
 
-    
+.projeto .b-verde:hover {
+    background-color: var(--verde-2);
+    left: 70%;
+    top: 67%;
+    position: absolute; /* Mude de 'relative' para 'absolute' */
+    transition: 0.5s; /* animação de botão pressionando */
+}
 
-.Explore {
+.explore {
     color: var(--preto-claro);
     font-size: 80px;
     font-family: MuseoModerno;
@@ -218,12 +236,16 @@ a {
     word-wrap: break-word
 }
 
-.Projeto {
-    width: 1920px;
+.projeto {
+    width: 100%;
     height: 1080px;
     position: relative;
     background: var(--preto-claro);
+
+    align-items: center;
+    justify-content: center;
 }
+
 
 .Base2V2 {
     width: 782.42px;
@@ -349,14 +371,14 @@ a {
 }
 
 .sobre-equipe-1 {
-    width: 1920px;
+    width: 100%;
     height: 1080px;
     position: relative;
     background: var(--branco);
 }
 
 .sobre-equipe-2 {
-    width: 1920px;
+    width: 100%;
     height: 1080px;
     position: relative;
     background: var(--preto-claro);
@@ -419,20 +441,4 @@ a {
     position: absolute;
     background: var(--preto-claro);
     border-radius: 9999px;
-}
-
-.destaque-nome-integrante {
-    color: var(--preto-claro);
-    font-size: 50px;
-    font-family: Roboto Condensed;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-
-.texto-integrante {
-    color: var(--preto-claro);
-    font-size: 50px;
-    font-family: Roboto Condensed;
-    font-weight: 400;
-    word-wrap: break-word;
 }
