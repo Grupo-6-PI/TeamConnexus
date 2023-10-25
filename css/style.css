@@ -218,7 +218,7 @@ a {
 }
 
 .Projeto {
-    width: 1920px;
+   width: 100%;
     height: 1080px;
     position: relative;
     background: var(--preto-claro);
