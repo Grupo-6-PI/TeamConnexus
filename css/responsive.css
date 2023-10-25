@@ -1,0 +1,56 @@
+/* Estilos para telas maiores */
+/* Coloque aqui os estilos que se aplicam a telas maiores, que você deseja manter sem alterações */
+
+/* Estilos para telas menores, como celulares */
+@media (max-width: 767px) {
+    * {
+        transform: scale(0.9);
+        /* Reduz todos os elementos em 90% */
+    }
+
+    /* Adicione estilos específicos para telas menores aqui */
+    :root {
+        /* Redefina as variáveis do root para as necessidades das telas menores */
+        --fonte-principal: 'Roboto Condensed', sans-serif;
+        --fonte-secundaria: 'Staatliches', cursive;
+        --cor-primaria: #3A00FF;
+        --verde-2: #1FC319;
+        --verde-1: #25DD1F;
+        --branco: #FFFFFF;
+        --preto-claro: #1A1A1A;
+        --w-c: 162.36px; /* Redefina as variáveis de largura e altura dos círculos */
+        --h-c: 167.14px;
+    }
+
+    /* Adicione outros estilos específicos para telas menores aqui */
+    .nav {
+        width: 100%; /* Mude a largura da navegação para preencher a largura da tela */
+        justify-content: center; /* Centralize os itens da navegação */
+        gap: 10px; /* Ajuste o espaçamento entre os itens */
+    }
+
+    .texto-nav {
+        font-size: 20px; /* Reduza o tamanho da fonte */
+    }
+
+    .texto {
+        width: 100%; /* Mude a largura do texto para preencher a largura da tela */
+        left: 0; /* Alinhe o texto à esquerda */
+        top: 30px; /* Ajuste a posição vertical */
+        text-align: center; /* Centralize o texto horizontalmente */
+        font-size: 40px; /* Reduza o tamanho da fonte */
+        line-height: 41.08px; /* Ajuste a linha de altura */
+    }
+
+    .sombra-b-verde, .BotVerde {
+        width: 100%; /* Mude a largura do botão e da sombra */
+        left: 0; /* Alinhe à esquerda */
+    }
+
+    .explore {
+        font-size: 40px; /* Reduza o tamanho da fonte do texto "Explore" */
+        line-height: 41.08px; /* Ajuste a linha de altura */
+    }
+
+    /* Adicione outras alterações necessárias para telas menores aqui */
+}

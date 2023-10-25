@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  /* max-width: 100%; */
+  height: auto;
+}
+
 @font-face {
   font-family: "Roboto Condensed-Bold";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/6059381db90976028c50cc9a/fonts/robotocondensed-bold.ttf")
