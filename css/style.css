@@ -6,14 +6,11 @@
 :root {
     --fonte-principal: 'Roboto Condensed', sans-serif;
     --fonte-secundaria: 'Staatliches', cursive;
-    --cor-primaria: #3A00FF;
+    --cor-primaria: #6031ff;
     --verde-2: #1FC319;
     --verde-1: #25DD1F;
     --branco: #FFFFFF;
     --preto-claro: #1A1A1A;
-
-    --w-c: 324.72px;
-    --h-c: 334.28px;
 
 }
 
@@ -30,21 +27,40 @@ a {
     background-size: cover;
 }
 
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 .fundo-about-1 {
-   
+    width: 100%;
+    height: 100%;
+    position: relative;
     background-image: url(../assets/textura-fundo.svg);
     background-size: cover;
 }
 
 .fundo-about-2 {
-   
+    width: 100%;
+    height: 100%;
+    position: relative;
     background-image: url(../assets/textura-fundo-invertida.svg);
     background-size: cover;
 }
 
+.navBase {
+    width: 1920px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background: #1A1A1A;
+    z-index: 1;
+}
 
-
-.logoConnexus {
+.LogoConnexus {
     width: 184px;
     height: 60px;
     left: 152px;
@@ -60,12 +76,11 @@ a {
     position: absolute;
 }
 
-/* circulos roxos */
-.c-1,
-.c-2,
-.c-3 {
-    width: var(--w-c);
-    height: var(--h-c);
+.Ellipse5 {
+    width: 324.72px;
+    height: 334.28px;
+    left: 92.79px;
+    top: 401.58px;
     position: absolute;
     transform: rotate(-106.60deg);
     transform-origin: 0 0;
@@ -74,31 +89,33 @@ a {
     border-radius: 9999px
 }
 
-.c-1 {
-    left: 92.79px;
-    top: 401.58px;
-}
-
-.c-2 {
+.Ellipse4 {
+    width: 324.72px;
+    height: 334.28px;
     left: 170.33px;
     top: 400.85px;
+    position: absolute;
+    transform: rotate(-106.60deg);
+    transform-origin: 0 0;
+    opacity: 0.90;
+    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
+    border-radius: 9999px
 }
 
-.c-3 {
+.Ellipse3 {
+    width: 324.72px;
+    height: 334.28px;
     left: 276.97px;
     top: 400.85px;
-}
-/* nav */
-
-.navBase {
-    width: 1920px;
-    height: 110px;
-    left: 0px;
-    top: 0px;
     position: absolute;
-    background: #1A1A1A;
+    transform: rotate(-106.60deg);
+    transform-origin: 0 0;
+    opacity: 0.90;
+    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
+    border-radius: 9999px
 }
-.nav {
+
+.Nav {
     width: 1000px;
     height: 110px;
     left: 1107px;
@@ -111,6 +128,7 @@ a {
 }
 
 .texto-nav {
+    color: white;
     font-size: 40px;
     font-family: Staatliches;
     font-weight: 400;
@@ -121,14 +139,9 @@ a {
     color: white;
     text-decoration: none;
 }
-.texto-nav a:hover {
-    color: var(--verde-1);
-    text-decoration: none;
-    background-color: transparent;
-}
 
 
-.texto {
+.Texto {
     width: 651px;
     height: 330px;
     left: 1101px;
@@ -160,11 +173,10 @@ a {
     left: 982px;
     top: 242px;
     position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px
+    background: #D9D9D9;
 }
 
-.sombra-b-verde {
+.SombraBotOVerde {
     width: 363px;
     height: 93px;
     padding: 10px;
@@ -175,7 +187,7 @@ a {
     border-radius: 25px
 }
 
-.b-verde {
+.BotOVerde {
     width: 363px;
     height: 93px;
     padding: 10px;
@@ -187,22 +199,26 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    display: inline-flex;
-    transition: all 0.3s; /* Adiciona uma transição suave para a mudança de estilo */
+    display: inline-flex
 }
 
-.b-verde:hover {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
+.BotOVerde:hover {
+    background: var(--verde-2);
+    color: var();
     left: 1117px;
     top: 719px;
-    position: absolute;
-    background: #1FC319;
-    border-radius: 25px;
+    transition: 0.5s;
 }
 
-.explore {
+.BotOVerde:active {
+    background: var(--cor-primaria);
+    color: var();
+    left: 1117px;
+    top: 719px;
+    transition: 0.5s;
+}
+
+.Explore {
     color: var(--preto-claro);
     font-size: 80px;
     font-family: MuseoModerno;
@@ -311,7 +327,7 @@ a {
     line-height: 61.61px;
     word-wrap: break-word;
 }
-/* linha divisoria */
+
 .Rectangle20 {
     width: 363px;
     height: 93px;
