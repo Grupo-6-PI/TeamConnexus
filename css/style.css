@@ -7,6 +7,7 @@
     --fonte-principal: 'Roboto Condensed', sans-serif;
     --fonte-secundaria: 'Staatliches', cursive;
     --cor-primaria: #6031ff;
+    --cor-primaria: #6031ff;
     --verde-2: #1FC319;
     --verde-1: #25DD1F;
     --branco: #FFFFFF;
@@ -28,6 +29,13 @@ a {
     position: relative;
     background-image: url(../assets/texturas/textura_fundo.svg);
     background-size: cover;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .display-flex {
@@ -73,6 +81,7 @@ a {
     top: 401.58px;
 }
 
+.c-2 {
 .c-2 {
     left: 170.33px;
     top: 400.85px;

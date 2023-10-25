@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Importante para que o padding não afete a largura total */
+}
+
+:root {
+    --fonte-principal: 'Roboto Condensed', sans-serif;
+    --fonte-secundaria: 'Staatliches', cursive;
+    --cor-primaria: #6031ff;
+    --verde-2: #1FC319;
+    --verde-1: #25DD1F;
+    --branco: #FFFFFF;
+    --preto-claro: #1A1A1A;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto-claro);
+}
+
+/* Use flex para ajustar larguras automaticamente */
+.desktop1 {
+    width: 100%;
+    height: 100vh; /* Usando viewport height (100%) para preencher a tela verticalmente */
+    position: relative;
+    background-image: url(../assets/texturas/textura_fundo.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo-about-1,
+.fundo-about-2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBase {
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    background: #1A1A1A;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Adicione algum espaçamento para evitar que o conteúdo encoste nas bordas */
+}
+
+.LogoConnexus {
+    width: 184px;
+    height: 60px;
+    position: relative; /* Não é necessário usar "absolute" se você quer que o logotipo flua com o restante do conteúdo */
+}
+
+.BolinhasFofas {
+    width: 100%;
+    max-width: 599px; /* Defina um valor máximo para o conteúdo */
+    height: auto; /* O conteúdo ajustará automaticamente a altura */
+    display: block; /* Remove o posicionamento absoluto */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Outros estilos podem ser ajustados da mesma maneira para usar flex e larguras automáticas */
