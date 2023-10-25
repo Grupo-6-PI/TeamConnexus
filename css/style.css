@@ -148,7 +148,7 @@ a {
     width: 651px;
     height: 330px;
     left: 60%;
-    top: 50%;
+    top: 35%;
     position: absolute;
     color: #1A1A1A;
     text-shadow: 4px 4px #6031FF;
@@ -341,40 +341,6 @@ a {
     position: absolute;
     background: var(--verde-1);
     border-radius: 25px;
-}
-
-.botao {
-    width: 363px;
-    height: 105px;
-    left: 1117px;
-    top: 734px;
-    position: absolute;
-}
-
-.SombraBotVerde {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1117px;
-    top: 719px;
-    position: absolute;
-    background: #1FC319;
-    border-radius: 25px;
-}
-
-.BotVerde {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1107px;
-    top: 707px;
-    position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex;
 }
 
 .sobre-equipe-1 {
