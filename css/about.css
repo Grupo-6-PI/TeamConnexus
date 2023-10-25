@@ -15,7 +15,7 @@
 
 .sobre .overlap {
   position: relative;
-  width: 1743px;
+
   height: 1054px;
   top: 13px;
   left: 11px;
@@ -42,7 +42,8 @@
   width: 1539px;
   height: 469px;
   top: 31px;
-  left: 157px;
+  left: 5%;
+  display: flex;
 }
 
 .sobre .desc-integrantes {
@@ -60,22 +61,18 @@
   
 }
 
-.sobre .text-wrapper {
-  font-weight: 700;
-}
 
 .sobre .span {
   font-family: "Roboto Condensed-Regular", Helvetica;
 }
 
-/* .sobre .foto-caio {
+.sobre .foto-esq {
   position: absolute;
-  width: 471px;
-  height: 469px;
+  width: 476px;
+  height: 472px;
   top: 0;
   left: 0;
-  
-} */
+}
 
 .sobre .foto-esq img {
   width: 100%;
@@ -85,10 +82,6 @@
   border: #1a1a1a solid 5px;
 }
 
-.sobre .overlap-group {
-  position: relative;
-  height: 469px;
-}
 
 .sobre .fundo {
   top: 15px;
@@ -112,10 +105,11 @@
 
 .sobre .direita {
   position: absolute;
-  width: 1503px;
+ 
   height: 472px;
   top: 550px;
-  left: 240px;
+  right: 90%;
+
 }
 
 .sobre .desc-direita {
@@ -147,9 +141,14 @@
   border: #1a1a1a solid 5px;
 }
 
-.sobre .div {
-  position: relative;
-  height: 472px;
+.sobre .fundo-1 {
+  top: 15px;
+  left: 17px;
+  position: absolute;
+  width: 454px;
+  height: 454px;
+  background-color: #7d5cef;
+  border-radius: 227px;
 }
 
 .sobre .fundo-2 {
