@@ -187,7 +187,6 @@ a {
     left: 70%;
     top: 67%;
     position: absolute;
-    /* Mude de 'relative' para 'absolute' */
     background: #1FC319;
     border-radius: 25px;
 }
@@ -199,7 +198,7 @@ a {
     left: 69.4%;
     top: 66%;
     position: absolute;
-    /* Mude de 'relative' para 'absolute' */
+   
     background: var(--verde-1);
     border-radius: 25px;
     justify-content: center;
@@ -213,7 +212,7 @@ a {
     left: 70%;
     top: 67%;
     position: absolute;
-    /* Mude de 'relative' para 'absolute' */
+
     transition: 0.5s;
     /* animação de botão pressionando */
 }
@@ -331,16 +330,6 @@ a {
     font-weight: 400;
     line-height: 61.61px;
     word-wrap: break-word;
-}
-
-.Rectangle20 {
-    width: 363px;
-    height: 93px;
-    left: 1107px;
-    top: 707px;
-    position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px;
 }
 
 .sobre-equipe-1 {
