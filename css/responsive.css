@@ -1,18 +1,17 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box; /* Importante para que o padding não afete a largura total */
 }
 
 :root {
     --fonte-principal: 'Roboto Condensed', sans-serif;
     --fonte-secundaria: 'Staatliches', cursive;
-    --cor-primaria: #3A00FF;
+    --cor-primaria: #6031ff;
     --verde-2: #1FC319;
     --verde-1: #25DD1F;
     --branco: #FFFFFF;
     --preto-claro: #1A1A1A;
-    --w-c: 324.72px;
-    --h-c: 334.28px;
 }
 
 a {
@@ -20,351 +19,53 @@ a {
     color: var(--preto-claro);
 }
 
+/* Use flex para ajustar larguras automaticamente */
 .desktop1 {
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Usando viewport height (100%) para preencher a tela verticalmente */
     position: relative;
     background-image: url(../assets/texturas/textura_fundo.svg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fundo-about-1 {
-    background-image: url(../assets/textura-fundo.svg);
-    background-size: cover;
-}
-
+.fundo-about-1,
 .fundo-about-2 {
-    background-image: url(../assets/textura-fundo-invertida.svg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
     background-size: cover;
-}
-
-.logoConnexus {
-    width: 184px;
-    height: 60px;
-    left: 152px;
-    top: 30px;
-    position: absolute;
-}
-
-.BolinhasFofas {
-    width: 599px;
-    height: 401.58px;
-    left: 339px;
-    top: 403px;
-    position: absolute;
-}
-
-.c-1,
-.c-2,
-.c-3 {
-    width: var(--w-c);
-    height: var(--h-c);
-    position: absolute;
-    transform: rotate(-106.60deg);
-    transform-origin: 0 0;
-    opacity: 0.90;
-    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
-    border-radius: 9999px;
-}
-
-.c-1 {
-    left: 92.79px;
-    top: 401.58px;
-}
-
-.c-2 {
-    left: 170.33px;
-    top: 400.85px;
-}
-
-.c-3 {
-    left: 276.97px;
-    top: 400.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navBase {
     width: 100%;
     height: 110px;
-    position: absolute;
+    position: fixed;
     background: #1A1A1A;
-}
-
-.nav {
-    width: 100%;
-    height: 110px;
-    position: absolute;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 95px;
+    z-index: 1;
     display: flex;
-}
-
-.texto-nav {
-    font-size: 40px;
-    font-family: var(--fonte-secundaria);
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-.texto-nav a {
-    color: var(--branco);
-    text-decoration: none;
-}
-
-.texto-nav a:hover {
-    color: var(--verde-1);
-    text-decoration: none;
-    background-color: transparent;
-}
-
-.texto {
-    width: 651px;
-    height: 330px;
-    position: absolute;
-    color: var(--preto-claro);
-    text-shadow: 4px 4px #6031FF;
-    font-size: 100px;
-    font-family: var(--fonte-principal);
-    font-weight: 700;
-    line-height: 102.69px;
-    word-wrap: break-word;
-}
-
-.RisquinhosFofos {
-    width: 446px;
-    left: -80px;
-    top: 446px;
-    position: absolute;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    display: inline-flex;
-}
-
-.divisao {
-    width: 7px;
-    height: 597px;
-    left: 982px;
-    top: 242px;
-    position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px;
-}
-
-.sombra-b-verde {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1117px;
-    top: 719px;
-    position: absolute;
-    background: #1FC319;
-    border-radius: 25px;
-}
-
-.b-verde {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1107px;
-    top: 707px;
-    position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px;
-    justify-content: center;
     align-items: center;
-    gap: 10px;
-    display: inline-flex;
-    transition: all 0.3s;
+    padding: 0 20px; /* Adicione algum espaçamento para evitar que o conteúdo encoste nas bordas */
 }
 
-.b-verde:hover {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1117px;
-    top: 719px;
-    position: absolute;
-    background: #1FC319;
-    border-radius: 25px;
+.LogoConnexus {
+    width: 184px;
+    height: 60px;
+    position: relative; /* Não é necessário usar "absolute" se você quer que o logotipo flua com o restante do conteúdo */
 }
 
-.explore {
-    color: var(--preto-claro);
-    font-size: 80px;
-    font-family: var(--fonte-principal);
-    font-weight: 500;
-    line-height: 82.15px;
-    word-wrap: break-word;
-}
-
-.Projeto {
+.BolinhasFofas {
     width: 100%;
-    position: relative;
-    background: var(--preto-claro);
+    max-width: 599px; /* Defina um valor máximo para o conteúdo */
+    height: auto; /* O conteúdo ajustará automaticamente a altura */
+    display: block; /* Remove o posicionamento absoluto */
+    margin: 0 auto; /* Centraliza horizontalmente */
 }
 
-.Base2V2 {
-    width: 782.42px;
-    height: 305.25px;
-    left: 126px;
-    top: 387px;
-    position: absolute;
-}
-
-.Bordas {
-    width: 310.41px;
-    height: 305.25px;
-    left: 472.01px;
-    top: 0px;
-    position: absolute;
-}
-
-.vetor-canto-1 {
-    width: 693.61px;
-    height: 294.09px;
-    left: 1459px;
-    top: 1083.46px;
-    position: absolute;
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
-}
-
-.vetor-canto-2 {
-    width: 693.61px;
-    height: 294.09px;
-    left: -27.05px;
-    top: 616px;
-    position: absolute;
-    transform-origin: 0 0;
-}
-
-.Frame1Traced {
-    width: 142.56px;
-    height: 145.86px;
-    left: 167.84px;
-    top: 0px;
-    position: absolute;
-}
-
-.Citr {
-    width: 478.54px;
-    height: 282.12px;
-    left: 0px;
-    top: 22.84px;
-    position: absolute;
-}
-
-.texto-citro {
-    width: 806px;
-    height: 811px;
-    left: 1032px;
-    top: 240px;
-    position: absolute;
-    color: var(--branco);
-    font-size: 60px;
-    font-family: var(--fonte-principal);
-    font-weight: 400;
-    line-height: 61.61px;
-    word-wrap: break-word;
-}
-
-.Rectangle20 {
-    width: 363px;
-    height: 93px;
-    left: 1107px;
-    top: 707px;
-    position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px;
-}
-
-.SombraBotVerde {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1117px;
-    top: 719px;
-    position: absolute;
-    background: #1FC319;
-    border-radius: 25px;
-}
-
-.BotVerde {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1107px;
-    top: 707px;
-    position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex;
-}
-
-.sobre-equipe-1 {
-    width: 100%;
-    position: relative;
-    background: var(--branco);
-}
-
-.sobre-equipe-2 {
-    width: 100%;
-    position: relative;
-    background: var(--preto-claro);
-}
-
-.vector-canto-1 {
-    width: 693.61px;
-    height: 294.09px;
-    left: 1459px;
-    top: 1083.46px;
-    position: absolute;
-    transform: rotate(-90deg);
-    transform-origin: 0 0;
-}
-
-.vector-canto-2 {
-    width: 693.61px;
-    height: 294.09px;
-    left: -27.05px;
-    top: 616px;
-    position: absolute;
-    transform-origin: 0 0;
-}
-
-.bolinha-roxa,
-.bolinha-roxa-2 {
-    width: 454px;
-    height: 454px;
-    background: #7D5CEF;
-    border-radius: 9999px;
-}
-
-.bolinha-preta,
-.bolinha-preta-2 {
-    width: 454px;
-    height: 454px;
-    background: var(--preto-claro);
-    border-radius: 9999px;
-}
-
-.destaque-nome-integrante,
-.texto-integrante {
-    font-size: 50px;
-    font-family: var(--fonte-condensed);
-    word-wrap: break-word;
-}
-
-.destaque-nome-integrante {
-    font-weight: 700;
-    color: var(--preto-claro);
-}
-
-.texto-integrante {
-    font-weight: 400;
-    color: var(--preto-claro);
-}
+/* Outros estilos podem ser ajustados da mesma maneira para usar flex e larguras automáticas */

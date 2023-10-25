@@ -12,6 +12,9 @@
     --branco: #FFFFFF;
     --preto-claro: #1A1A1A;
 
+    --circle-w : 599px;
+    --circle-h : 401.58px;
+
 }
 
 a {
@@ -68,45 +71,31 @@ a {
     position: absolute;
 }
 
-.BolinhasFofas {
-    width: 599px;
-    height: 401.58px;
+.circle {
+   
     left: 339px;
     top: 403px;
     position: absolute;
 }
-
-.Ellipse5 {
-    width: 324.72px;
-    height: 334.28px;
+.c-1 {
     left: 92.79px;
     top: 401.58px;
-    position: absolute;
-    transform: rotate(-106.60deg);
-    transform-origin: 0 0;
-    opacity: 0.90;
-    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
-    border-radius: 9999px
 }
 
-.Ellipse4 {
-    width: 324.72px;
-    height: 334.28px;
+.c-2 {
     left: 170.33px;
     top: 400.85px;
-    position: absolute;
-    transform: rotate(-106.60deg);
-    transform-origin: 0 0;
-    opacity: 0.90;
-    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
-    border-radius: 9999px
 }
 
-.Ellipse3 {
-    width: 324.72px;
-    height: 334.28px;
+.c-3 {
     left: 276.97px;
     top: 400.85px;
+}
+
+/* estilo para os circulos */
+.c-1, .c-2, .c-3 {
+    width: 324.72px;
+    height: 334.28px;
     position: absolute;
     transform: rotate(-106.60deg);
     transform-origin: 0 0;
@@ -115,7 +104,7 @@ a {
     border-radius: 9999px
 }
 
-.Nav {
+.nav {
     width: 1000px;
     height: 110px;
     left: 1107px;
@@ -218,6 +207,8 @@ a {
     transition: 0.5s;
 }
 
+    
+
 .Explore {
     color: var(--preto-claro);
     font-size: 80px;
@@ -225,21 +216,6 @@ a {
     font-weight: 500;
     line-height: 82.15px;
     word-wrap: break-word
-}
-
-.AlgumaCoisaIndefinida {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1107px;
-    top: 707px;
-    position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex
 }
 
 .Projeto {
