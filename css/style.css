@@ -6,11 +6,14 @@
 :root {
     --fonte-principal: 'Roboto Condensed', sans-serif;
     --fonte-secundaria: 'Staatliches', cursive;
-    --cor-primaria: #3A00FF;
+    --cor-primaria: #6031ff;
     --verde-2: #1FC319;
     --verde-1: #25DD1F;
     --branco: #FFFFFF;
     --preto-claro: #1A1A1A;
+
+    --circle-w : 599px;
+    --circle-h : 401.58px;
 
 }
 
@@ -25,6 +28,13 @@ a {
     position: relative;
     background-image: url(../assets/texturas/textura_fundo.svg);
     background-size: cover;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .fundo-about-1 {
@@ -43,15 +53,6 @@ a {
     background-size: cover;
 }
 
-.NavBase {
-    width: 1920px;
-    height: 110px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: #1A1A1A;
-}
-
 .LogoConnexus {
     width: 184px;
     height: 60px;
@@ -60,45 +61,31 @@ a {
     position: absolute;
 }
 
-.BolinhasFofas {
-    width: 599px;
-    height: 401.58px;
+.circle {
+   
     left: 339px;
     top: 403px;
     position: absolute;
 }
-
-.Ellipse5 {
-    width: 324.72px;
-    height: 334.28px;
+.c-1 {
     left: 92.79px;
     top: 401.58px;
-    position: absolute;
-    transform: rotate(-106.60deg);
-    transform-origin: 0 0;
-    opacity: 0.90;
-    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
-    border-radius: 9999px
 }
 
-.Ellipse4 {
-    width: 324.72px;
-    height: 334.28px;
+.c-2 {
     left: 170.33px;
     top: 400.85px;
-    position: absolute;
-    transform: rotate(-106.60deg);
-    transform-origin: 0 0;
-    opacity: 0.90;
-    background: linear-gradient(180deg, #3A00FF 0%, rgba(58.18, 0, 255, 0) 100%);
-    border-radius: 9999px
 }
 
-.Ellipse3 {
-    width: 324.72px;
-    height: 334.28px;
+.c-3 {
     left: 276.97px;
     top: 400.85px;
+}
+
+/* estilo para os circulos */
+.c-1, .c-2, .c-3 {
+    width: 50vh;
+    height: 50vh;
     position: absolute;
     transform: rotate(-106.60deg);
     transform-origin: 0 0;
@@ -107,9 +94,18 @@ a {
     border-radius: 9999px
 }
 
-.Nav {
-    width: 1000px;
+.navBase {
+   width: 100%;
     height: 110px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background: #1A1A1A;
+    z-index: 1;
+}
+
+
+.nav {
     left: 1107px;
     top: 30px;
     position: absolute;
@@ -194,6 +190,24 @@ a {
     display: inline-flex
 }
 
+.BotOVerde:hover {
+    background: var(--verde-2);
+    color: var();
+    left: 1117px;
+    top: 719px;
+    transition: 0.5s;
+}
+
+.BotOVerde:active {
+    background: var(--cor-primaria);
+    color: var();
+    left: 1117px;
+    top: 719px;
+    transition: 0.5s;
+}
+
+    
+
 .Explore {
     color: var(--preto-claro);
     font-size: 80px;
@@ -201,21 +215,6 @@ a {
     font-weight: 500;
     line-height: 82.15px;
     word-wrap: break-word
-}
-
-.AlgumaCoisaIndefinida {
-    width: 363px;
-    height: 93px;
-    padding: 10px;
-    left: 1107px;
-    top: 707px;
-    position: absolute;
-    background: var(--verde-1);
-    border-radius: 25px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex
 }
 
 .Projeto {
