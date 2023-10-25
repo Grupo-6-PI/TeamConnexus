@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,180 +16,55 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Roboto+Condensed&family=Staatliches&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Roboto+Condensed&family=Staatliches&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/globals.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/responsive.css">
-
-    <style>
-        /* EXEMPLOS DE USO DE VARIAVEIS
-                body {
-                    font-family: var(--fonte-principal);
-                    color: var(--cor-secundaria);
-                }
-
-                h1 {
-                    font-family: var(--fonte-secundaria);
-                    color: var(--cor-primaria);
-                }*/
-    </style>
 </head>
-
 <body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logo_connexus.svg" alt="Connexus Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projeto">Citro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container text-center">
+            <h1 class="mt-5">CONECTANDO PESSOAS E IDEIAS</h1>
+        </div>
+    </header>
+
     <section class="desktop1">
-        <header>
-            <div class="navBase"></div>
-            <div class="logoConnexus">
-                <img src="assets/logo_connexus.svg" alt="">
-            </div>
-            <nav class="nav texto-nav">
-                <a class="b-nav" href="#">Home</a>
-                <a class="b-nav" href="#projeto">Citro</a>
-                <a class="b-nav" href="#sobre">Sobre</a>
-                <a class="b-nav" href="#">Contato</a>
-            </nav>
-
-            <div class="texto">
-                CONECTANDO PESSOAS E IDEIAS
-            </div>
-        </header>
-
-
-        <div class="BolinhasFofas">
-            <div class="c-1"></div>
-            <div class="c-2"></div>
-            <div class="c-3"></div>
-        </div>
-
-        <div class="RisquinhosFofos">
-            <img src="assets/riscosesq.svg" alt="Traços laterais">
-        </div>
-        <!-- botão verde -->
-        <div class="botao explore">
-            <div class="sombra-b-verde"></div>
-
-            <div class="b-verde">
-                <a href="#projeto">explore</a>
-            </div>
-        </div>
-
-        <!-- fim do botão verde -->
+        <!-- Restante do conteúdo da página -->
     </section>
 
-    <section class="Projeto" id="projeto">
-        <div class="Base2V2">
-            <div class="Bordas">
-                <div class="Vector"></div>
-                <div class="Frame1Traced"></div>
-            </div>
-            <div class="Citr">
-                <img src="assets/logo_citro.svg" alt="logo-citro">
-            </div>
-        </div>
-
-        <p class="texto-citro">O Citro é um projeto que tem como objetivo usar da inteligência artificial para auxiliar
-            na detecção de certas doenças no fruto da laranja durante o cultivo dos pomares.</p>
-
-        <div class="vector-canto-1">
-            <img src="assets/vetor_canto.svg" alt="vetor-canto">
-        </div>
-
-        <div class="vetor-canto-2">
-            <img src="assets/vetor_canto.svg" alt="vetor-canto">
-        </div>
-
-        <div class="divisao"></div>
-
-        <!-- botão verde -->
-        <div class="botao explore">
-            <div class="sombra-b-verde"></div>
-
-            <div class="b-verde">
-                <a href="#">explore</a>
-            </div>
-        </div>
-
-        <!-- fim do botão verde -->
-    </section>
-
-    <section class="sobre-equipe-1" id="sobre">
-        <div class="sobre">
-            <div class="overlap-wrapper">
-                <div class="overlap fundo-about-1">
-                    <div class="caio">
-                        <p class="desc-caio">
-                            <span class="text-wrapper">Caio<br /></span>
-                            <span class="span">nbvanoivnreiandlavivenra~eifnw~ldanvoirenañ
-                                isdnaofeniaondlanciwneidnaidjeeiieieie</span>
-                        </p>
-                        <div class="foto-caio">
-                            <div class="overlap-group">
-                                <div class="fundo"></div>
-                                <div class="frente"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="isa">
-                        <p class="desc-isa">
-                            <span class="text-wrapper">Isabela <br /></span>
-                            <span class="span">nbvanoivnreiandlavivenra~eifnw~ldanvoirenañ
-                                isdnaofeniaondlanciwneidnaidjeeiieieie</span>
-                        </p>
-                        <div class="foto-isa">
-                            <div class="div">
-                                <div class="fundo"></div>
-                                <div class="frente"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- sobre a equipe 2 -->
-    <section class="sobre-equipe-2" id="sobre">
-        <div class="sobre">
-            <div class="overlap-wrapper">
-                <div class="overlap fundo-about-2">
-                    <div class="matheus">
-                        <p class="desc-matheus">
-                            <span class="text-wrapper">Matheus<br /></span>
-                            <span class="span">nbvanoivnreiandlavivenra~eifnw~ldanvoirenañ
-                                isdnaofeniaondlanciwneidnaidjeeiieieie</span>
-                        </p>
-                        <div class="foto-matheus">
-                            <div class="overlap-group">
-                                <div class="fundo"></div>
-                                <div class="frente"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ruth">
-                        <p class="desc-ruth">
-                            <span class="text-wrapper">Ruth<br /></span>
-                            <span class="span">nbvanoivnreiandlavivenra~eifnw~ldanvoirenañ
-                                isdnaofeniaondlanciwneidnaidjeeiieieie</span>
-                        </p>
-                        <div class="foto-ruth">
-                            <div class="div">
-                                <div class="fundo"></div>
-                                <div class="frente"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contato -->
-    <section class="contato" id="contato">
-
-    </section>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
