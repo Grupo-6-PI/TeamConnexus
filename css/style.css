@@ -13,8 +13,8 @@
     --branco: #FFFFFF;
     --preto-claro: #1A1A1A;
 
-    --circle-w: 599px;
-    --circle-h: 401.58px;
+    --circle-w: 50vh;
+    --circle-h: 50vh;
 
 }
 
@@ -70,26 +70,25 @@ a {
 }
 
 .circle {
-
-    left: 339px;
-    top: 403px;
+    width: var(--circle-w);
+    height: var(--circle-h);
+    left: 10%;
+    top: 40%;
     position: absolute;
 }
 
 .c-1 {
-    left: 92.79px;
-    top: 401.58px;
+    
+    left: 20em;
+    top: 25em;
 }
-
-
 .c-2 {
-    left: 170.33px;
-    top: 400.85px;
+    left: 25em;
+    top: 25em;
 }
-
 .c-3 {
-    left: 276.97px;
-    top: 400.85px;
+    left: 30em;
+    top: 25em;
 }
 
 /* estilo para os circulos */
@@ -162,7 +161,7 @@ a {
 .RisquinhosFofos {
     width: auto;
     height: 100%;
-    top: 446px;
+    top: 35%;
     position: absolute;
     flex-direction: column;
     justify-content: space-between;
