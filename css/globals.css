@@ -5,12 +5,25 @@
   box-sizing: border-box;
 }
 
-html,
+/* container responsivo e flexivel confome as teals */
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  /* padding: 0 30px; paraadicionar um espaco */
+
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* html,
 body {
   margin: 0px;
   height: 100%;
   
-}
+} */
 body {
   font-family: "Roboto Condensed-Regular", sans-serif;
   font-size: 16px;

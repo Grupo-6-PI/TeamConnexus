@@ -80,15 +80,15 @@ a {
 .c-1 {
     
     left: 20em;
-    top: 25em;
+    top: 15em;
 }
 .c-2 {
     left: 25em;
-    top: 25em;
+    top: 15em;
 }
 .c-3 {
     left: 30em;
-    top: 25em;
+    top: 15em;
 }
 
 /* estilo para os circulos */
@@ -147,7 +147,7 @@ a {
     width: 651px;
     height: 330px;
     left: 60%;
-    top: 35%;
+    top: 25%;
     position: absolute;
     color: #1A1A1A;
     text-shadow: 4px 4px #6031FF;
@@ -161,7 +161,7 @@ a {
 .RisquinhosFofos {
     width: auto;
     height: 100%;
-    top: 35%;
+    top: 25%;
     position: absolute;
     flex-direction: column;
     justify-content: space-between;
@@ -170,10 +170,10 @@ a {
 }
 
 .divisao {
-    width: 7px;
-    height: 597px;
-    left: 982px;
-    top: 242px;
+    width: 0.5%;
+    height: 50%;
+    left: 60%;
+    top: 15%;
     position: absolute;
     background: #D9D9D9;
     border-radius: 25px;
@@ -183,8 +183,8 @@ a {
     width: 22%;
     height: 9%;
     padding: 10px;
-    left: 70%;
-    top: 67%;
+    left: 70.5%;
+    top: 56%;
     position: absolute;
     background: #1FC319;
     border-radius: 25px;
@@ -194,8 +194,8 @@ a {
     width: 22%;
     height: 9%;
     padding: 10px;
-    left: 69.4%;
-    top: 66%;
+    left: 70%;
+    top: 55%;
     position: absolute;
    
     background: var(--verde-1);
@@ -208,8 +208,8 @@ a {
 
 .b-verde:hover {
     background-color: var(--verde-2);
-    left: 70%;
-    top: 67%;
+    left: 70.5%;
+    top: 56%;
     position: absolute;
 
     transition: 0.5s;
@@ -220,16 +220,47 @@ a {
 .b-verde:active {
     background: var(--cor-primaria);
     transition: 0.5s;
+
+
 }
 
+.projeto .b-verde {
+    width: 22%;
+    height: 9%;
+    padding: 10px;
+   
+    position: absolute;
+    background: var(--verde-1);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
 .projeto .b-verde:hover {
     background-color: var(--verde-2);
-    left: 70%;
-    top: 67%;
+    /* left: 70.5%;
+    top: 67.5%; */
     position: absolute;
     /* Mude de 'relative' para 'absolute' */
     transition: 0.5s;
     /* animação de botão pressionando */
+}
+
+.projeto .s-b-verde {
+    width: 22%;
+    height: 9%;
+    padding: 10px;
+    
+   
+    position: absolute;
+    background: #1FC319;
+    border-radius: 25px;
+}
+
+.projeto .b-verde:active {
+    background: var(--cor-primaria);
+    transition: 0.5s;
 }
 
 .explore {
@@ -253,10 +284,10 @@ a {
 
 
 .Base2V2 {
-    width: 782.42px;
-    height: 305.25px;
-    left: 126px;
-    top: 387px;
+    width: 100%;
+    height: 100%;
+    left: 5%;
+    top: 20%;
     position: absolute;
 }
 
@@ -296,16 +327,16 @@ a {
 }
 
 .Citr {
-    width: 478.54px;
-    height: 282.12px;
-    left: -0px;
-    top: 22.84px;
+    width: 50%;
+    height: 50%;
+   
+   
     position: absolute;
 }
 
 .ocitro {
-    width: 806px;
-    height: 811px;
+    width: 100%;
+    height: 100%;
     left: 1032px;
     top: 240px;
     position: absolute;
@@ -318,16 +349,17 @@ a {
 }
 
 .texto-citro {
-    width: 806px;
-    height: 811px;
-    left: 1032px;
-    top: 240px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    left: 65%;
+    top: 10%;
     position: absolute;
     color: var(--branco);
-    font-size: 60px;
+    font-size: 3em;
     font-family: Roboto Condensed;
     font-weight: 400;
-    line-height: 61.61px;
+    line-height: 60px;
     word-wrap: break-word;
 }
 

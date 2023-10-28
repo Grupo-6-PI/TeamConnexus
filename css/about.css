@@ -7,7 +7,7 @@
 }
 
 .sobre .overlap-wrapper {
-  background-color: rgba(255, 255, 255, 1);
+  position: relative;
   background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 52.08%, rgb(255, 255, 255) 100%);
   width: 100%;
   height: 1080px;
@@ -39,9 +39,9 @@
 
 .sobre .esquerda {
   position: absolute;
-  width: 1539px;
-  height: 469px;
-  top: 31px;
+  width: 100%;
+  height: 25%;
+  top: 5%;
   left: 5%;
   display: flex;
 }
@@ -55,10 +55,19 @@
   word-wrap: break-word;
 
 }
-.desc-esquerda {
+
+.sobre .desc-esquerda {
   top: 92px;
   left: 581px;
-  
+  color: #1a1a1a;
+  position: absolute;
+  width: 50%;
+  font-family: "Roboto Condensed-Bold", Helvetica;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+
 }
 
 
@@ -87,16 +96,16 @@
   top: 15px;
   left: 17px;
   position: absolute;
-  width: 454px;
-  height: 454px;
+  width: 100%;
+  height: 100%;
   background-color: #7d5cef;
   border-radius: 227px;
 }
 
 .sobre .frente {
   position: absolute;
-  width: 454px;
-  height: 454px;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   background-color: #1a1a1a;
@@ -105,10 +114,11 @@
 
 .sobre .direita {
   position: absolute;
- 
-  height: 472px;
-  top: 550px;
-  right: 90%;
+
+  height: 25%;
+  top: 50%;
+  left: 5%;
+
 
 }
 
@@ -117,7 +127,8 @@
   left: 0;
   color: #1a1a1a;
   position: absolute;
-  width: 956px;
+  width: 50%;
+  height: 50%;
   font-family: "Roboto Condensed-Bold", Helvetica;
   font-weight: 400;
   font-size: 50px;
@@ -127,8 +138,8 @@
 
 .sobre .foto-dir {
   position: absolute;
-  width: 476px;
-  height: 472px;
+  width: 25%;
+  height: 25%;
   top: 0;
   left: 1025px;
 }
@@ -160,4 +171,3 @@
   background-color: #7d5cef;
   border-radius: 227px;
 }
-
