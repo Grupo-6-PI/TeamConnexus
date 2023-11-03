@@ -59,6 +59,8 @@ body {
     /* Centralize horizontalmente */
     top: 0;
     /* Posicione a 50% da altura do pai (EmManutenO) */
+    
+    transform: translate3d(-10%, -10%, 0);
    
    
 } 
