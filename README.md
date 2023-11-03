@@ -29,7 +29,10 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 
 ## Screenshots
 
-![App Screenshot](assets/inicio_print.png)
+![tela 1](assets/pages/pdfs/corte%20tela%201.png)
+![tela 2](assets/pages/pdfs/corte%20tela%202.png)
+![tela 3](assets/pages/pdfs/corte%20tela%203.png)
+![tela 4](assets/pages/pdfs/corte%20tela%204.png)
 
 
 ## Suporte
