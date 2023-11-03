@@ -1,16 +1,17 @@
 :root {
     --preto-claro: #1a1a1a;
+    --roxo : #6031ff;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #6031ff;
+    color: var(--roxo);
     text-align: center;
     background-color: var(--preto-claro);
 
@@ -38,22 +39,34 @@ body {
     justify-content: center;
     /* Centralize verticalmente */
     align-items: center;
-    /* Centralize horizontalmente */
+    /* Centralize horizontalmente  */
     
 }
 
 .FrutoManutenO img {
-    /* altura automatica ao tamanho da tela */
-    width: 80%;
-    /* 100% da largura do pai (FrutoManutenO) */
-    height: 50%;
-    /* Altura automática */
-}
+
+    /* fazer com que a imagem diminua de tamanho confome a tela */
+    max-width: 100%;
+    max-height: 100%;
+    /* 100% da largura do pai (EmManutenO) */
+    
+    width: 100%;
+    /* 100% da largura do pai (EmManutenO) */
+    height: 100%;
+    /* 100% da altura do pai (EmManutenO) */
+  
+    left: 50%;
+    /* Centralize horizontalmente */
+    top: 50%;
+    /* Posicione a 50% da altura do pai (EmManutenO) */
+   
+   
+} 
 
 .infosManuten {
     text-align: center;
-    color: #6031FF;
-    font-size: 6vw;
+  
+    font-size: 5vw;
     /* Tamanho de fonte responsivo em relação à largura da viewport */
 
     font-weight: 400;
@@ -69,8 +82,8 @@ body {
 
 .SiteEmManutenO {
     text-align: center;
-    color: #6031FF;
-    font-size: 6vw;
+    
+    font-size: 5vw;
     /* Tamanho de fonte responsivo em relação à largura da viewport */
 
     font-weight: 400;
@@ -83,3 +96,22 @@ body {
     transform: translateX(-50%);
     /* Centralize horizontalmente */
 }
+
+.relogio {
+    width: 10%;
+    /* 10% da largura do pai (EmManutenO) */
+    height: 10%;
+    /* 10% da altura do pai (EmManutenO) */
+    position: absolute;
+
+    /* fonte que se adapta */
+    font-size: 2vw;
+    left: 22%;
+    /* Centralize horizontalmente */
+    top: 55%;
+    /* Posicione a 50% da altura do pai (EmManutenO) */
+    transform: translateX(-40%);
+    /* Centralize horizontalmente */
+}
+
+  

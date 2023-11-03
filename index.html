@@ -29,6 +29,7 @@
 
     <!-- link para os estilos -->
     <link rel="stylesheet" href="css/maintenance.css">
+   
     <style>
 
        
@@ -38,15 +39,40 @@
 </head>
 
 <body>
-    <div class="EmManutenO">
+    <div class="container">
         <div class="FrutoManutenO">
           <img src="assets/pages/503/logo_manutenção.svg" alt="logo_maintenance" srcset="">
-        </div>
+        <div class="relogio"></div></div>
         <div class="SiteEmManutenO">SITE EM MANUTENÇÃO</div>
+        
         <div class="infosManuten">(99) 99999-9999 suporte@teamconnexus.com.br</div>
         
       </div>
       
 </body>
+
+<script>
+
+    // função para o relógio
+    function relogio() {
+        var data = new Date();
+        var horas = data.getHours();
+        var minutos = data.getMinutes();
+        var segundos = data.getSeconds();
+
+        if (horas < 10) {
+            horas = "0" + horas;
+        }
+        if (minutos < 10) {
+            minutos = "0" + minutos;
+        }
+        if (segundos < 10) {
+            segundos = "0" + segundos;
+        }
+
+        document.querySelector(".relogio").textContent = horas + ":" + minutos + ":" + segundos;
+    }
+    setInterval(relogio, 1000);
+</script>
 
 </html>
