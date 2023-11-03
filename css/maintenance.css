@@ -57,7 +57,7 @@ body {
   
     left: 50%;
     /* Centralize horizontalmente */
-    top: 50%;
+    top: 0;
     /* Posicione a 50% da altura do pai (EmManutenO) */
    
    
@@ -98,20 +98,9 @@ body {
 }
 
 .relogio {
-    width: 10%;
-    /* 10% da largura do pai (EmManutenO) */
-    height: 10%;
-    /* 10% da altura do pai (EmManutenO) */
-    position: absolute;
-
-    /* fonte que se adapta */
-    font-size: 2vw;
-    left: 22%;
-    /* Centralize horizontalmente */
-    top: 55%;
     /* Posicione a 50% da altura do pai (EmManutenO) */
-    transform: translateX(-40%);
+    transform: translateX(-5%);
     /* Centralize horizontalmente */
 }
 
-  
+
