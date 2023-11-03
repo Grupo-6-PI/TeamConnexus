@@ -1,0 +1,86 @@
+:root {
+    --preto-claro: #1a1a1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #6031ff;
+    text-align: center;
+    background-color: var(--preto-claro);
+
+    width: 100vw;
+    height: 100vh;
+    /* 100% da altura da viewport */
+ 
+    background: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    /* Alinhe os filhos na vertical */
+    justify-content: center;
+    /* Centralize verticalmente */
+    align-items: center;
+    /* Centralize horizontalmente */
+}
+
+.FrutoManutenO {
+    width: 100%;
+    height: auto;
+
+    /* 50% da largura do pai (EmManutenO) */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* Alinhe os filhos na vertical */
+    justify-content: center;
+    /* Centralize verticalmente */
+    align-items: center;
+    /* Centralize horizontalmente */
+    
+}
+
+.FrutoManutenO img {
+    width: 100%;
+    /* 100% da largura do pai (FrutoManutenO) */
+    height: auto;
+    /* Altura automática */
+}
+
+.infosManuten {
+    text-align: center;
+    color: #6031FF;
+    font-size: 4vw;
+    /* Tamanho de fonte responsivo em relação à largura da viewport */
+
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    left: 50%;
+    /* Centralize horizontalmente */
+    top: 75%;
+    /* Posicione a 80% da altura do pai (EmManutenO) */
+    transform: translateX(-50%);
+    /* Centralize horizontalmente */
+}
+
+.SiteEmManutenO {
+    text-align: center;
+    color: #6031FF;
+    font-size: 4vw;
+    /* Tamanho de fonte responsivo em relação à largura da viewport */
+
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    left: 50%;
+    /* Centralize horizontalmente */
+    top: 15%;
+    /* Posicione a 10% da altura do pai (EmManutenO) */
+    transform: translateX(-50%);
+    /* Centralize horizontalmente */
+}
