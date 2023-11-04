@@ -116,7 +116,8 @@
     color: #1a1a1a;
 
     text-align: left;
-    font: 400 64px "roboto condensed", sans-serif;
+    font: 400 "roboto condensed", sans-serif;
+    font-size: 4vw;
     position: absolute;
     /* left: 50%;
     top: 40%; */
@@ -127,7 +128,8 @@
 .texto-oops-b {
     color: #ffffff;
     text-align: left;
-    font: 400 64px "roboto condensed", sans-serif;
+    font: 400 "roboto condensed", sans-serif;
+    font-size: 4vw;
     position: absolute;
     /* left: 50%;
     top: 40%; */
