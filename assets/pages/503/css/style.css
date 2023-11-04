@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.em-manuten-o {
+
+
+    width: 100vw;
+    position: relative;
+    overflow-y: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    /* 100% da altura da viewport */
+    background: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    /* Alinhe os filhos na vertical */
+    justify-content: center;
+    /* Centralize verticalmente */
+    align-items: center;
+    /* Centralize horizontalmente */
+}
+
+.luzes-fundo {
+    position: absolute;
+    inset: 0;
+}
+
+.ellipse-5 {
+    background: rgba(217, 217, 217, 0.27);
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top:10%;
+    filter: blur(400px);
+}
+
+.ellipse-6 {
+    background: #6031ff;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 35%;
+    top: -48px;
+    filter: blur(250px);
+}
+/* 
+.ellipse-9 {
+    background: rgba(96, 49, 255, 0.49);
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: -486.44px;
+    top: 666.06px;
+    filter: blur(275px);
+} */
+
+.ellipse-7 {
+    background: rgba(37, 221, 31, 0.66);
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    filter: blur(250px);
+}
+/*
+.ellipse-10 {
+    background: rgba(37, 221, 31, 0.47);
+    border-radius: 50%;
+    width: 443.45px;
+    height: 334.88px;
+    position: absolute;
+    left: 180.27px;
+    top: 819.12px;
+    filter: blur(250px);
+}
+ 
+.ellipse-52 {
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: -720px;
+    top: 809.3px;
+    filter: blur(400px);
+} */
+
+.relogio {
+    color: #6031ff;
+    text-align: left;
+    font: 400 64px "roboto condensed", sans-serif;
+
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    /* converter o left e o toppara porcentagem */
+    left: 5%;
+
+    top: 0%;
+
+
+
+}
+
+.texto-oops-p {
+    color: #1a1a1a;
+
+    text-align: left;
+    font: 400 64px "roboto condensed", sans-serif;
+    position: absolute;
+    /* left: 50%;
+    top: 40%; */
+    transform: translate(40.5%, 21%);
+    width: 50%
+}
+
+.texto-oops-b {
+    color: #ffffff;
+    text-align: left;
+    font: 400 64px "roboto condensed", sans-serif;
+    position: absolute;
+    /* left: 50%;
+    top: 40%; */
+    transform: translate(40%, 20%);
+    width: 50%
+}
+
+.nav {
+    background: #1a1a1a;
+    opacity: 0.1;
+    width: 100%;
+    height: 62px;
+    position: absolute;
+    align-items: flex-end;
+    display: flex;
+    left: 0px;
+    top: 0px;
+}
+
+.email {
+    color: #1a1a1a;
+    text-align: left;
+    font: 400 64px "roboto condensed", sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 0.5%;
+}
+
+.email2 {
+    color: #6031ff;
+    text-align: left;
+    font: 400 64px "roboto condensed", sans-serif;
+    position: absolute;
+    left: 39.8%;
+    top: 0%;
+}
+
+.erro-503 {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    overflow: visible;
+}
