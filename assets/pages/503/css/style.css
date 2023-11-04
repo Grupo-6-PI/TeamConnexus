@@ -6,7 +6,6 @@
 
 .em-manuten-o {
 
-
     width: 100vw;
     position: relative;
     overflow-y: auto;
@@ -98,26 +97,23 @@
 .relogio {
     color: #6031ff;
     text-align: left;
-    font: 400 64px "roboto condensed", sans-serif;
-
+    font: 400 4vw "roboto condensed", sans-serif;
     padding: 0;
     box-sizing: border-box;
     position: absolute;
     /* converter o left e o toppara porcentagem */
     left: 5%;
-
     top: 0%;
-
-
-
 }
 
 .texto-oops-p {
+
+    z-index: 2;
     color: #1a1a1a;
 
     text-align: left;
-    font: 400 "roboto condensed", sans-serif;
-    font-size: 4vw;
+    font: 400 4vw "roboto condensed", sans-serif;
+  
     position: absolute;
     /* left: 50%;
     top: 40%; */
@@ -126,10 +122,12 @@
 }
 
 .texto-oops-b {
+
+    z-index: 2;
     color: #ffffff;
     text-align: left;
-    font: 400 "roboto condensed", sans-serif;
-    font-size: 4vw;
+    font: 400 4vw "roboto condensed", sans-serif;
+    
     position: absolute;
     /* left: 50%;
     top: 40%; */
@@ -141,7 +139,7 @@
     background: #1a1a1a;
     opacity: 0.1;
     width: 100%;
-    height: 62px;
+    height: 6vw;
     position: absolute;
     align-items: flex-end;
     display: flex;
@@ -152,7 +150,7 @@
 .email {
     color: #1a1a1a;
     text-align: left;
-    font: 400 64px "roboto condensed", sans-serif;
+    font: 400 4vw "roboto condensed", sans-serif;
     position: absolute;
     left: 40%;
     top: 0.5%;
@@ -161,15 +159,18 @@
 .email2 {
     color: #6031ff;
     text-align: left;
-    font: 400 64px "roboto condensed", sans-serif;
+    font: 400 4vw "roboto condensed", sans-serif;
     position: absolute;
     left: 39.8%;
     top: 0%;
 }
 
 .erro-503 {
+    z-index: 1;
     position: absolute;
     left: 10%;
     top: 30%;
+    width: 40vw;
+    height: 40vh;
     overflow: visible;
 }
