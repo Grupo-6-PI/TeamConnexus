@@ -1,7 +1,14 @@
 [![wakatime](https://wakatime.com/badge/user/31c8cd4b-9191-483c-b3b6-c1c3a6f23a70/project/018b212a-a8e2-4bae-8b73-1f19fd5bace4.svg)](https://wakatime.com/badge/user/31c8cd4b-9191-483c-b3b6-c1c3a6f23a70/project/018b212a-a8e2-4bae-8b73-1f19fd5bace4)
 # Team Connexus
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+> Equipe Connexus: Conectando pessoas, ideias e fortalecendo o grupo. Junte-se a nós e faça parte dessa rede dinâmica de mentes criativas, onde cada um contribui para o sucesso coletivo.
+ 
+Equipe Connexus: 
+- Equipe do PI Citro - Fatec Registro
+- Nosso nome surge da união entre 'Connex', representando a conexão que buscamos estabelecer, e 'us', simbolizando nosso grupo unido.
+- Somos uma equipe dedicada à colaboração, inovação e interação.
+- Em nossa logotipo, você notará a divisão entre 'Connex' e 'us', destacando nossa missão de criar conexões significativas. 
+
 
 
 ## Autores
@@ -42,7 +49,7 @@ Para suporte, mande um email para <suporte@connexus.com> ou entre em nosso canal
 
 ## Referência
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 - [Awesome README](https://github.com/matiassingers/awesome-readme)
 - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
