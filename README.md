@@ -16,7 +16,7 @@ Equipe Connexus:
 - [@dieguesmosken](https://www.github.com/dieguesmosken)
 - [@ruthmendonca](https://www.github.com/ruthmendonca)
 - [@cailler](https://www.github.com/cailler)
-- [@placeholder](https://www.github.com/placeholder)
+- [@isa-bela-cp](https://www.github.com/isa-bela-cp)
 
 
 
