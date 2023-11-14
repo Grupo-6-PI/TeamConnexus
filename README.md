@@ -44,7 +44,7 @@ Equipe Connexus:
 
 ## Suporte
 
-Para suporte, mande um email para <connexus@fatec.sp.gov.br> ou entre em nosso canal do (example).
+Para suporte, mande um email para <connexus@fatec.sp.gov.br> ou nos cham no [instagram](https://github.com/TeamConnexus/docs).
 
 
 ## Referência
