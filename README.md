@@ -31,7 +31,7 @@ Equipe Connexus:
 
 ## Documentação
 
-[Documentação](https://link-da-documentação)
+[Documentação](https://github.com/TeamConnexus/docs)
 
 
 ## Screenshots
