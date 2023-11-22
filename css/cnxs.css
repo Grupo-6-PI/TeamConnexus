@@ -153,9 +153,14 @@
     max-width: 100%;
 }
 
+
+
+
+
 @media (max-width: 991px) {
-    .img-2 {
-        margin-top: 40px;
+    .img-2, .img-5 {
+        /* fazer a imagem 2 e 5 sumir */
+        display: none;
     }
 }
 
@@ -173,18 +178,18 @@
     }
 }
 
-.img-3 {
+.logo_cnxs {
     aspect-ratio: 1.71;
     object-fit: contain;
     object-position: center;
-    width: 662px;
+    width: 100vw;
     overflow: hidden;
     margin-top: 184px;
     max-width: 100%;
 }
 
 @media (max-width: 991px) {
-    .img-3 {
+    .logo_cnxs {
         margin-top: 40px;
     }
 }
