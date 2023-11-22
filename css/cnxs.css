@@ -492,7 +492,15 @@
     align-self: center;
     margin-top: 195px;
     max-width: 1616px;
-    font: 400 30px/143% Roboto, sans-serif;
+    padding: 20px 20px;
+    font: 400 4vw Roboto, sans-serif;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    
 }
 
 @media (max-width: 991px) {
