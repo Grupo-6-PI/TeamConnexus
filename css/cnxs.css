@@ -19,19 +19,32 @@
     flex-direction: column;
 }
 
-.div-2 {
+.nav {
     background-color: rgba(0, 0, 0, 0.2);
     align-self: end;
     display: flex;
     width: 100%;
-    align-items: flex-start;
+    align-items: center;
+    position: fixed;
     justify-content: space-between;
     gap: 20px;
-    padding: 10px 677px 10px 24px;
+    padding: 30px 100px 10px 10px;
+    z-index: 1;
+}
+
+.grupo-botao-nav a {
+    top: 10%;
+    color: #fff;
+    text-decoration: none;
+    font: 400 30px Staatliches, sans-serif;
+}
+
+.grupo-botao-nav a:hover {
+    color: #6234ff;
 }
 
 @media (max-width: 991px) {
-    .div-2 {
+    .nav {
         max-width: 100%;
         flex-wrap: wrap;
         padding: 0 20px;
@@ -58,7 +71,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    
+
     margin: auto 0;
     padding: 0 20px;
 }
@@ -413,7 +426,7 @@
     width: 50%;
     overflow: hidden;
     flex-grow: 1;
-    
+
     margin-left: 40%;
 }
 
@@ -531,31 +544,31 @@
 .sobre-dev .div {
     background-color: #262626;
     overflow: hidden;
-    width: 1921px;
+    width: 100%;
     height: 2161px;
     position: relative;
 }
 
 .sobre-dev .sobre-devs {
     position: absolute;
-    width: 1923px;
-    height: 878px;
+    width: 100%;
+    height: 100%;
     top: 1283px;
     left: 0;
 }
 
 .sobre-dev .footer {
     position: absolute;
-    width: 1921px;
-    height: 99px;
-    top: 779px;
+    width: 100%;
+    height: 20%;
+    top: 90%;
     left: 0;
     background-color: #00000059;
 }
 
 .sobre-dev .texto-final {
     position: absolute;
-    width: 1616px;
+    width: 90%;
     top: 0;
     left: 161px;
     font-family: "Roboto-Regular", Helvetica;
@@ -606,7 +619,7 @@
 .sobre-dev .foto {
     background-color: #464646;
     background-size: cover;
-    background-position: 50% 50% ;
+    background-position: 50% 50%;
     border-radius: 50px;
     width: 24%;
     height: 90%;
@@ -641,11 +654,12 @@
 
 
 .sobre-dev .foto-2 {
-/* ruth */
+    /* ruth */
     top: 0;
     left: 25%;
     background-image: url(https://avatars.githubusercontent.com/u/99757116);
 }
+
 .sobre-dev .foto-3 {
 
     top: 20%;
