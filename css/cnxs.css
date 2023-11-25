@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     /* para ver o tamanho dos elementos */
 
     /* outline: #6234ff 3.5px solid; */
@@ -61,6 +61,7 @@
     overflow: hidden;
     align-self: start;
     max-width: 100%;
+   
 }
 
 .grupo-botao-nav {
@@ -568,11 +569,18 @@
     background-color: #00000059;
     color: #fff;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-between;
     align-items: center;
     font-family: "staatliches";
     font-size: 40px;
+    padding: 0 10%;
+}
+
+.sobre-dev .footer img {
+    width: 10%;
+    margin-right: 10px;
+    padding: 10px;
 }
 
 .sobre-dev .texto-final {
