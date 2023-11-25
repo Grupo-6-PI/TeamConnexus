@@ -570,17 +570,32 @@
     color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     font-family: "staatliches";
     font-size: 40px;
-    padding: 0 10%;
+    padding: 0 5%;
+}
+
+.sobre-dev .footer p {
+    
+    font-family: "staatliches";
+    font-size: 40px;
+    
 }
 
 .sobre-dev .footer img {
     width: 10%;
     margin-right: 10px;
     padding: 10px;
+    color: #fff;
+}
+
+.sobre-dev .footer i {
+    
+    font-size: 40px;
+    padding: 10px;
+    color: #fff;
 }
 
 .sobre-dev .texto-final {
