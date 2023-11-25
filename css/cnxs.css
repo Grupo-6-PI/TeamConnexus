@@ -36,12 +36,15 @@
     top: 10%;
     color: #fff;
     text-decoration: none;
+    width: 10%;
     font: 400 30px Staatliches, sans-serif;
 }
 
 .grupo-botao-nav a:hover {
     color: #6234ff;
 }
+
+
 
 @media (max-width: 991px) {
     .nav {
@@ -596,6 +599,11 @@
     font-size: 40px;
     padding: 10px;
     color: #fff;
+}
+
+.sobre-dev .footer i:hover {
+    color: #6031ff;
+    transform: scale(1.1);
 }
 
 .sobre-dev .texto-final {
