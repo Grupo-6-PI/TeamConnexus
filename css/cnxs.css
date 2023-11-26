@@ -4,7 +4,7 @@
     box-sizing: border-box;
     /* para ver o tamanho dos elementos */
 
-    /* outline: #6234ff 3.5px solid; */
+    outline: #6234ff 3.5px solid;
 
     /* outros recursos de desenvolvimento */
 
@@ -529,30 +529,27 @@
 
     .nav {
         max-width: 100%;
-
         padding: 0 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+
     }
 
     .grupo-botao-nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        font-size: 20px;
+
+        display: none
     }
 
-    .grupo-botao-nav a {
-        width: 10%;
-        text-align: center;
-        font-size: 20px;
-        margin: 5px 0;
-
+    .oculto {
+        display: none;
     }
 
-
-
-
-
-
-
+    .nav .img {
+        padding: 5px;
+    }
 
 
 
@@ -577,6 +574,17 @@
     .img-6 {
         max-width: 90% !important;
         margin: 0 auto !important;
+    }
+
+    .div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
     .div-11 {
@@ -610,6 +618,14 @@
         top: 0;
         font-size: 20px;
 
+    }
+
+    .sobre-dev .img-grupo {
+        
+        width: 100%;
+        height: 10%;
+        margin: 0 !important;
+        
     }
 
     .sobre-dev .texto-final {
@@ -757,7 +773,7 @@
 }
 
 .sobre-dev .footer i {
-   
+
     font-size: 50%;
     padding: 10px;
     color: #fff;
