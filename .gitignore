@@ -1,0 +1,24 @@
+# ignorar batch files
+*.bat
+
+# ignorar arquivos de configuração
+*.config
+
+# ignorar arquivos de projeto
+*.csproj
+*.sln
+*.csproj.user
+*.suo
+*.user
+*.vspscc
+*.vssscc
+*.vsmdi
+*.testsettings
+*.resharper
+*.resharper.user
+*.sln.docstates
+
+# ignorar arquivos de publicação
+*.Publish.xml
+*.pubxml
+*.pubxml.user
