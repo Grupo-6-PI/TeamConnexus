@@ -114,21 +114,19 @@
 
 .sobre .direita {
   position: absolute;
-
+  width: 100%;
   height: 25%;
-  top: 50%;
-  left: 5%;
-
-
+  top: 5%;
+  left: 70%;
+  display: flex;
 }
 
 .sobre .desc-direita {
-  top: 115px;
-  left: 0;
+  top: 92px;
+  left: 581px;
   color: #1a1a1a;
   position: absolute;
   width: 50%;
-  height: 50%;
   font-family: "Roboto Condensed-Bold", Helvetica;
   font-weight: 400;
   font-size: 50px;
@@ -138,10 +136,10 @@
 
 .sobre .foto-dir {
   position: absolute;
-  width: 25%;
-  height: 25%;
-  top: 0;
-  left: 1025px;
+  width: 476px;
+  height: 472px;
+  top: 200%;
+  left: 0;
 }
 
 .sobre .foto-dir img {
