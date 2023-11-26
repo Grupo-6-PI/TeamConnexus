@@ -4,13 +4,18 @@
     box-sizing: border-box;
     /* para ver o tamanho dos elementos */
 
-    outline: #6234ff 3.5px solid;
+    /* outline: #6234ff 3.5px solid; */
 
     /* outros recursos de desenvolvimento */
 
     outline-offset: 3.5px;
 
 
+}
+
+
+.hidden {
+    display: none;
 }
 
 .div {
@@ -23,14 +28,26 @@
     background-color: rgba(0, 0, 0, 0.2);
     align-self: end;
     display: flex;
+    flex-direction: row;
     width: 100%;
     align-items: center;
-    position: fixed;
     justify-content: space-between;
+    position: fixed;
+
     gap: 20px;
     padding: 10px 100px 10px 10px;
-    z-index: 1;
+    z-index: 3;
 }
+
+/* .grupo-botao-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 0 0 0;
+
+} */
 
 .grupo-botao-nav a {
     top: 10%;
@@ -46,13 +63,6 @@
 
 
 
-@media (max-width: 991px) {
-    .nav {
-        max-width: 100%;
-        flex-wrap: wrap;
-        padding: 0 20px;
-    }
-}
 
 .img {
     aspect-ratio: 1.12;
@@ -68,24 +78,18 @@
 }
 
 .grupo-botao-nav {
-    width: 80%;
+
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 
     margin: auto 0;
-    padding: 0 20px;
+    padding: 10px 50px 0 10px;
 }
 
-@media (max-width: 991px) {
-    .grupo-botao-nav {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
 
 .botao-nav {
     color: #fff;
@@ -93,11 +97,7 @@
     font: 400 30px Staatliches, sans-serif;
 }
 
-@media (max-width: 991px) {
-    .botao-nav {
-        font-size: 20px;
-    }
-}
+
 
 
 @media (max-width: 991px) {
@@ -123,6 +123,7 @@
 .div-9 {
     gap: 20px;
     display: flex;
+   
 }
 
 @media (max-width: 991px) {
@@ -310,8 +311,10 @@
     align-self: center;
     width: 100%;
     height: 100%;
-
-    padding: 0 20px;
+    padding: 50px;
+    /* display: flex;
+    flex-direction: column; */
+    min-height: 100vh !important;
 }
 
 @media (max-width: 991px) {
@@ -447,7 +450,7 @@
 }
 
 .img-9 {
-    aspect-ratio: 1.48;
+    /* aspect-ratio: 1.48; */
     object-fit: contain;
     object-position: center;
     width: 30%;
@@ -520,7 +523,38 @@
     }
 }
 
+/* formato de celular */
 @media (max-width: 991px) {
+
+
+    .nav {
+        max-width: 100%;
+
+        padding: 0 20px;
+    }
+
+    .grupo-botao-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .grupo-botao-nav a {
+        width: 10%;
+        text-align: center;
+        font-size: 20px;
+        margin: 5px 0;
+
+    }
+
+
+
+
+
+
+
+
+
 
     .logo_cnxs,
     .img-2,
@@ -578,11 +612,9 @@
     }
 
     .sobre-dev .texto-final {
-        font-size: 25px !important;
+        font-size: 20px !important;
         top: 0 !important;
-        left: 0;
-        width: 100%;
-        padding: 0 20px;
+        letter-spacing: normal !important;
     }
 
     .sobre-dev .titulo {
@@ -624,6 +656,31 @@
         font-size: 15px !important;
         margin: 0 !important;
     }
+
+    .sobre-dev .footer .info-footer {
+        font-size: 15px !important;
+    }
+
+    .sobre-dev .footer .info-footer p {
+        font-size: 15px !important;
+    }
+
+    .sobre-dev .footer .info-footer i {
+        font-size: 15px !important;
+
+    }
+
+    .sobre-dev .footer img {
+        width: 25% !important;
+    }
+
+    .sobre-dev .footer .social {
+
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        width: 50% !important;
+    }
+
 
 
 
@@ -673,12 +730,13 @@
 .sobre-dev .footer p {
 
     font-family: "staatliches";
-    font-size: 40px;
+    font-size: 40px !important;
 
 }
 
 .sobre-dev .footer img {
     width: 10%;
+
     margin-right: 10px;
     padding: 10px;
     color: #fff;
@@ -686,7 +744,7 @@
 
 .sobre-dev .footer i {
 
-    font-size: 40px;
+    font-size: 50%;
     padding: 10px;
     color: #fff;
 }
@@ -695,6 +753,32 @@
     color: #6031ff;
     transform: scale(1.1);
 }
+
+.sobre-dev .footer .info-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sobre-dev .footer .info-footer p {
+    font-size: 20px !important;
+    margin: 0;
+}
+
+.sobre-dev .footer .info-footer i {
+    font-size: 100%;
+    padding: 10px;
+    color: #f00;
+    transform: none;
+}
+
+.sobre-dev .footer .info-footer i:hover {
+    color: #6031ff;
+    transform: scale(1.1);
+}
+
 
 .sobre-dev .texto-final {
     position: absolute;
